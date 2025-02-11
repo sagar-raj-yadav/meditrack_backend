@@ -80,6 +80,10 @@ SIMPLE_JWT = {
 
 ROOT_URLCONF = 'meditrack_backend.urls'
 
+# Firebase Cloud Messaging API Key
+FCM_SERVER_KEY = "YOUR_FCM_SERVER_KEY"  # Replace with your actual Firebase key
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
